@@ -1,3 +1,6 @@
+-- https://www.sql-ex.ru/learn_exercises.php?LN=110
+-- Определить имена разных пассажиров, когда-либо летевших рейсом, который вылетел в субботу, а приземлился в воскресенье.
+
 WITH table_new AS (SELECT DISTINCT passenger.ID_psg, name FROM 
 ( pass_in_trip 
 JOIN passenger ON passenger.ID_psg = pass_in_trip.ID_psg
