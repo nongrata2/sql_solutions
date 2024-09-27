@@ -1,3 +1,6 @@
+-- Определить имена разных пассажиров, которые летали только между двумя городами (туда и/или обратно).
+
+
 WITH all_prices AS (
   SELECT Product.model, price, maker
   FROM Product
